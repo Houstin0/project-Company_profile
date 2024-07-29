@@ -77,5 +77,3 @@ Open http://localhost:3000 in your browser to view the project.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-NetWoods - Bridging the Digital Gap
