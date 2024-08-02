@@ -102,7 +102,7 @@ function NavBar() {
             href="/"
             className="ml-3 italic text-gray-900 text-2xl font-extrabold dark:text-white flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src="/icon_.png" height={50} width={45} className="h-auto w-auto mr-1" alt="Logo" />
+            <Image src="/icons/icon_.png" height={50} width={45} className="h-auto w-auto mr-1" alt="Logo" />
             Netwoods
           </Link>
         </div>

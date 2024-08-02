@@ -88,6 +88,7 @@ export default function Home() {
               alt="Connection GIF"
               width={150}
               height={100}
+              unoptimized
             />
           </div>
           <div className="flex-col items-center hidden md:flex">
@@ -97,6 +98,7 @@ export default function Home() {
               alt="Hotspot GIF"
               width={150}
               height={100}
+              unoptimized
             />
           </div>
           <div className="flex-col items-center flex">
@@ -105,6 +107,7 @@ export default function Home() {
               alt="WiFi GIF"
               width={150}
               height={100}
+              unoptimized
             />
           </div>
           <div className="flex-col items-center hidden md:flex">
@@ -114,6 +117,7 @@ export default function Home() {
               alt="WiFi GIF"
               width={150}
               height={100}
+              unoptimized
             />
           </div>
         </div>
@@ -208,6 +212,7 @@ export default function Home() {
           alt="Number"
           width={40}
           height={40}
+          unoptimized
         />
         <div>
           <h3 className="font-semibold text-black dark:text-white">Phone Number</h3>
@@ -220,6 +225,7 @@ export default function Home() {
           alt="email"
           width={40}
           height={40}
+          unoptimized
         />
         <div>
           <h3 className="font-semiboldtext-black dark:text-white">Email</h3>
@@ -232,6 +238,7 @@ export default function Home() {
           alt="pin"
           width={40}
           height={40}
+          unoptimized
         />
         <div>
           <h3 className="font-semibold text-black dark:text-white">Address</h3>
