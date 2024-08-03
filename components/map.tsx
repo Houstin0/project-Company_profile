@@ -5,11 +5,11 @@ const Map = () => {
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
   return (
-    <div>
+    <div className=' '>
       <iframe
+      className='border-2 border-black my-4'
   width="800"
   height="450"
-  style={{marginTop: 2 + 'em'}}
   loading="lazy"
   allowFullScreen
   referrerPolicy="no-referrer-when-downgrade"

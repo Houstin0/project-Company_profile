@@ -42,34 +42,7 @@ const Services = () => {
               </div>
             </div>
           </button>
-          <button
-            type="button"
-            className="w-full sm:w-auto text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm text-center me-2 mb-2 inline-flex items-center justify-center px-4 py-2.5"
-          >
-            <div className="text-left rtl:text-right">
-              <div className="-mt-1 font-sans text-sm font-semibold">
-                {service.CallToAction2}
-              </div>
-            </div>
-
-            <svg
-              className="w-auto h-[30px] text-gray-800 dark:text-white"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 12H5m14 0-4 4m4-4-4-4"
-              />
-            </svg>
-          </button>
+          
         </div>
       </div>
     ))}
