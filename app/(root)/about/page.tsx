@@ -86,6 +86,62 @@ function About() {
               <p className="text-base font-normal text-black dark:text-gray-400">
               With a focus on quality, reliability, and customer satisfaction, NetWoods aims to be a catalyst for positive change in rural areas and a leader in web development innovation. Join us on our journey to make the world a more connected place.
               </p>
+
+
+              <h2 className="text-teal-600 text-2xl font-semibold">Why Choose Us</h2>
+              <ol className="list-inside list-decimal space-y-4 pl-8 text-base font-normal text-gray-700 dark:text-gray-400">
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Reliable Connectivity Solutions: {" "}
+                  </span>
+                  We specialize in providing robust and consistent internet connections, even in the most remote areas. Our technology ensures minimal downtime and maximum performance, so you can stay connected at all times.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Community-Focused Approach:{" "}
+                  </span>
+                  We are dedicated to empowering rural communities through technology. Our initiatives go beyond providing services; we also offer training and support to help local businesses and individuals thrive in the digital age.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Affordable and Transparent Pricing:{" "}
+                  </span>
+                  We believe in offering top-notch services at prices that are accessible to everyone. Our transparent pricing structure ensures you know exactly what you're paying for, with no hidden fees.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Tailored Web Development Services:{" "}
+                  </span>
+                  Our team of experienced developers creates custom web solutions that meet your specific needs. From responsive websites to e-commerce platforms, we deliver high-quality, user-friendly designs that drive results.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Exceptional Customer Support:{" "}
+                  </span>
+                  Our customer support team is always ready to assist you with any questions or issues. We pride ourselves on our quick response times and our commitment to resolving problems efficiently.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Cutting-Edge Technology:{" "}
+                  </span>
+                  We leverage the latest technologies to ensure our services are fast, secure, and reliable. Our continuous investment in innovation keeps us at the forefront of the industry.
+                </li>
+                <li>
+                  <span className="font-semibold text-gray-900 dark:text-white">
+                    {" "}
+                    Comprehensive Service Range:{" "}
+                  </span>
+                  From internet connectivity to web development, we offer a comprehensive range of services to meet all your digital needs. Our integrated solutions provide a seamless experience for our clients.
+                </li>
+  
+            
+              </ol>
               
             </div>
   

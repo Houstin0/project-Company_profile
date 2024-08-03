@@ -21,10 +21,10 @@ const Footer = () => {
             href="/"
             className="ml-3 italic text-gray-900 text-2xl font-extrabold dark:text-white flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src="/icon_.png" height={50} width={50} className="h-auto w-auto mr-1" alt="Logo" />
+            <Image src="/icons/icon_.png" height={50} width={50} className="h-auto w-auto mr-1" alt="Logo" />
             Netwoods
           </Link>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <ul className="flex flex-wrap items-center my-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
                     <Link href="/about" className="hover:underline me-4 md:me-6">About</Link>
                 </li>

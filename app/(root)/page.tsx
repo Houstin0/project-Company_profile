@@ -58,74 +58,72 @@ export default function Home() {
 
       {/* About section */}
       <section className="sm:px-8 px-4 max-w-7xl mx-auto relative z-0 bg-gray-100 dark:bg-black">
-      <span className="hash-span" id="about">
-        &nbsp;
-      </span>
+        <span className="hash-span" id="about">
+          &nbsp;
+        </span>
 
-      <div>
-        <h2 className="text-black dark:text-white font-bold md:text-xl text-xl">
-          Introduction
-        </h2>
-      </div>
+        <div>
+          <h2 className="text-black dark:text-white font-bold md:text-xl text-xl">
+            Introduction
+          </h2>
+        </div>
 
-      <div className="flex flex-col md:flex-row">
-        <div className="flex-1 md:w-1/2">
-          <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
-            Welcome to NetWoods! Founded in 2024 and based in Nairobi, Kenya,
-            we are committed to bridging the digital gap by providing reliable
-            internet connectivity to rural areas and offering innovative web
-            development services. Our mission is to empower underserved
-            communities with affordable high-speed internet and create
-            impactful web solutions for businesses and individuals. Join us in
-            making the world a more connected place.
-          </p>
+        <div className="flex flex-col md:flex-row">
+          <div className="flex-1 md:w-1/2">
+            <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
+              Welcome to NetWoods! Founded in 2024 and based in Nairobi, Kenya,
+              we are committed to bridging the digital gap by providing reliable
+              internet connectivity to rural areas and offering innovative web
+              development services. Our mission is to empower underserved
+              communities with affordable high-speed internet and create
+              impactful web solutions for businesses and individuals. Join us in
+              making the world a more connected place.
+            </p>
+          </div>
+
+          <div className="bg-white flex-1 md:w-1/2 grid grid-cols-2 ml-2">
+            <div className="flex flex-col items-center">
+              <Image
+                src="/videos/wifi (1).gif"
+                alt="Connection GIF"
+                width={150}
+                height={100}
+                unoptimized
+              />
+            </div>
+            <div className="flex-col items-center hidden md:flex">
+              <Image
+                src="/videos/wifi.gif"
+                alt="Hotspot GIF"
+                width={150}
+                height={100}
+                unoptimized
+              />
+            </div>
+            <div className="flex-col items-center flex">
+              <Image
+                src="/videos/hotspot.gif"
+                alt="WiFi GIF"
+                width={150}
+                height={100}
+                unoptimized
+              />
+            </div>
+            <div className="flex-col items-center hidden md:flex">
+              <Image
+                src="/videos/connection.gif"
+                alt="WiFi GIF"
+                width={150}
+                height={100}
+                unoptimized
+              />
+            </div>
+          </div>
         </div>
-        
-        <div className="bg-white flex-1 md:w-1/2 grid grid-cols-2 ml-2">
-          <div className="flex flex-col items-center">
-            <Image
-              src="/videos/wifi (1).gif"
-              alt="Connection GIF"
-              width={150}
-              height={100}
-              unoptimized
-            />
-          </div>
-          <div className="flex-col items-center hidden md:flex">
-            <Image
-              
-              src="/videos/wifi.gif"
-              alt="Hotspot GIF"
-              width={150}
-              height={100}
-              unoptimized
-            />
-          </div>
-          <div className="flex-col items-center flex">
-            <Image
-              src="/videos/hotspot.gif"
-              alt="WiFi GIF"
-              width={150}
-              height={100}
-              unoptimized
-            />
-          </div>
-          <div className="flex-col items-center hidden md:flex">
-            <Image
-             
-               src="/videos/connection.gif"
-              alt="WiFi GIF"
-              width={150}
-              height={100}
-              unoptimized
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
       {/* Services section */}
-      <section className=" mx-10 md:my-10">
+      <section className="mx-2 md:mx-10 my-10">
         <h1 className="mb-4 text-3xl font-extrabold md:text-5xl lg:text-6xl flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Our Services
         </h1>
@@ -154,6 +152,7 @@ export default function Home() {
                   width={40}
                   height={40}
                   alt="icon"
+                  unoptimized
                 />
 
                 <div className="text-left rtl:text-right">
@@ -206,47 +205,57 @@ export default function Home() {
             services or need support, here’s how you can reach us:
           </p>
           <div className="grid grid-cols-2 items-start">
-      <div className="flex items-center space-x-4 mb-6">
-        <Image
-          src="/icons/phone-call.gif"
-          alt="Number"
-          width={40}
-          height={40}
-          unoptimized
-        />
-        <div>
-          <h3 className="font-semibold text-black dark:text-white">Phone Number</h3>
-          <p className="text-black dark:text-white">+254 727 041 155</p>
-        </div>
-      </div>
-      <div className="flex items-center space-x-4">
-        <Image
-          src="/icons/email.gif"
-          alt="email"
-          width={40}
-          height={40}
-          unoptimized
-        />
-        <div>
-          <h3 className="font-semiboldtext-black dark:text-white">Email</h3>
-          <p className="text-black dark:text-white">info@netwoods.co.ke</p>
-        </div>
-      </div>
-      <div className="flex items-center space-x-4">
-        <Image
-          src="/icons/pin.gif"
-          alt="pin"
-          width={40}
-          height={40}
-          unoptimized
-        />
-        <div>
-          <h3 className="font-semibold text-black dark:text-white">Address</h3>
-          <p className="text-black dark:text-white">1234 Rural Connection Ave,</p>
-          <p className="text-black dark:text-white">Nairobi, Kenya</p>
-        </div>
-      </div>
-    </div>
+            <div className="flex items-center space-x-4 mb-6">
+              <Image
+                src="/icons/phone-call.gif"
+                alt="Number"
+                width={40}
+                height={40}
+                unoptimized
+              />
+              <div>
+                <h3 className="font-semibold text-black dark:text-white">
+                  Phone Number
+                </h3>
+                <p className="text-black dark:text-white">+254 727 041 155</p>
+              </div>
+            </div>
+            <div className="flex items-center space-x-4">
+              <Image
+                src="/icons/email.gif"
+                alt="email"
+                width={40}
+                height={40}
+                unoptimized
+              />
+              <div>
+                <h3 className="font-semiboldtext-black dark:text-white">
+                  Email
+                </h3>
+                <p className="text-black dark:text-white">
+                  info@netwoods.co.ke
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center space-x-4">
+              <Image
+                src="/icons/pin.gif"
+                alt="pin"
+                width={40}
+                height={40}
+                unoptimized
+              />
+              <div>
+                <h3 className="font-semibold text-black dark:text-white">
+                  Address
+                </h3>
+                <p className="text-black dark:text-white">
+                  1234 Rural Connection Ave,
+                </p>
+                <p className="text-black dark:text-white">Nairobi, Kenya</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
