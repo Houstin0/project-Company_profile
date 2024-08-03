@@ -109,7 +109,7 @@ function About() {
                     {" "}
                     Affordable and Transparent Pricing:{" "}
                   </span>
-                  We believe in offering top-notch services at prices that are accessible to everyone. Our transparent pricing structure ensures you know exactly what you're paying for, with no hidden fees.
+                  We believe in offering top-notch services at prices that are accessible to everyone. Our transparent pricing structure ensures you know exactly what you&apos;re paying for, with no hidden fees.
                 </li>
                 <li>
                   <span className="font-semibold text-gray-900 dark:text-white">
