@@ -250,7 +250,8 @@ export default function Home() {
                   Address
                 </h3>
                 <p className="text-black dark:text-white">
-                  1234 Rural Connection Ave,
+                Kenyatta Road Business Centre,
+                Thika Super Hwy, Kenyatta Road
                 </p>
                 <p className="text-black dark:text-white">Nairobi, Kenya</p>
               </div>
