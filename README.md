@@ -28,7 +28,7 @@ This project is a company profile website for NetWoods, built using Next.js, Typ
 ## Features
 
 - **Company Overview**: View detailed information about NetWoods, including mission, vision, and services.
--**Contact**: Easily reach out to NetWoods for inquiries and service requests.
+- **Contact**: Easily reach out to NetWoods for inquiries and service requests.
 - **Services**: Explore the range of services offered by NetWoods, including internet connectivity and web development.
 
 ## Snippets
@@ -60,16 +60,18 @@ Make sure you have the following installed on your machine:
 ```bash
 git clone https://github.com/Houstin0/Company_profile.git
 cd company_profile
+```
+
 Installation
 Install the project dependencies using npm:
 
-bash
-Copy code
+```bash
 npm install
+```
 
 Running the Project
-bash
-Copy code
+
+```bash
 npm run dev
 Open http://localhost:3000 in your browser to view the project.
 ```
