@@ -8,7 +8,9 @@
 
 ## Description
 
-This project is a company profile website for NetWoods, built using Next.js, TypeScript and Tailwind CSS. NetWoods is dedicated to providing reliable internet connectivity to rural areas and offering innovative web development services. This website allows users to view company details and reach out to NetWoods for their services.
+This project is a company profile website for NetWoods, built using Next.js, TypeScript, and Tailwind CSS. NetWoods is dedicated to providing reliable internet connectivity to rural areas and offering innovative web development services. This website allows users to view company details and reach out to NetWoods for their services.
+
+[Deployed Site](https://netwoods.onrender.com/)
 
 ## Table of Contents
 
@@ -22,11 +24,13 @@ This project is a company profile website for NetWoods, built using Next.js, Typ
 - Next.js
 - TypeScript
 - TailwindCSS
+- Google Maps API
 
 ## Features
 
 - **Company Overview**: View detailed information about NetWoods, including mission, vision, and services.
 - **Contact**: Easily reach out to NetWoods for inquiries and service requests.
+- **Integrated Map**: View NetWoods' location on a map embedded in the contact section using the Google Maps API.
 - **Services**: Explore the range of services offered by NetWoods, including internet connectivity and web development.
 
 ## Snippets
@@ -36,10 +40,6 @@ my code
 ### Contact and Support
 
 Easy access to our support team for any assistance or inquiries through our contact form, phone number, or email.
-
-### Dynamic Portfolio
-
-Showcasing our latest projects and services dynamically categorized for easy navigation.
 
 ## Installation
 
@@ -76,4 +76,14 @@ Open http://localhost:3000 in your browser to view the project.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 
+
+MIT License
+
+© 2024 Houstin Angwenyi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
