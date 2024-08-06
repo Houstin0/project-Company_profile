@@ -10,7 +10,7 @@
 
 This project is a company profile website for NetWoods, built using Next.js, TypeScript, and Tailwind CSS. NetWoods is dedicated to providing reliable internet connectivity to rural areas and offering innovative web development services. This website allows users to view company details and reach out to NetWoods for their services.
 
-[Deployed Site](https://netwoods.onrender.com/)
+The app has been deployed, to visit it follow the [Deployed Site Link](https://netwoods.onrender.com/)
 
 ## Table of Contents
 
