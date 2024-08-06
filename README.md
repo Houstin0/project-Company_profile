@@ -1,14 +1,12 @@
 # Company Profile Website (Netwoods)
-
-![Project Banner](https://yourcompanybanner.com/banner.png)
-
+<!-- ![Project Banner](https://yourcompanybanner.com/banner.png) -->
 ---
 
 ![Next.js](https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=38B2AC)
 
-## Introduction
+## Description
 
 This project is a company profile website for NetWoods, built using Next.js, TypeScript and Tailwind CSS. NetWoods is dedicated to providing reliable internet connectivity to rural areas and offering innovative web development services. This website allows users to view company details and reach out to NetWoods for their services.
 
