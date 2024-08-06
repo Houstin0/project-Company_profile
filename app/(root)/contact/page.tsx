@@ -136,7 +136,7 @@ const Contact = () => {
         <Map />
 
         <h2 className="my-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
-          Contact Us
+        Write to us
         </h2>
         <form onSubmit={handleSubmit} className="space-y-8">
           <div>
