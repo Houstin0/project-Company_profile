@@ -1,8 +1,9 @@
 function About() {
-    return (
-      <section className="bg-gray-100 antialiased dark:bg-black p-6 mt-14 mx-4 md:mx-12">
-        
-          <nav className="flex ml-12" aria-label="Breadcrumb ">
+  return (
+    <section className="relative bg-gray-100 antialiased dark:bg-black p-6 mt-14 mx-4 md:mx-12 overflow-hidden">
+      <div className="relative z-10 mx-auto max-w-screen-xl px-4 2xl:px-0">
+        <div className="mx-auto max-w-7xl">
+        <nav className="flex ml-12" aria-label="Breadcrumb ">
             <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
               <li className="inline-flex items-center">
                 <a
@@ -46,12 +47,8 @@ function About() {
               </li>
             </ol>
           </nav>
-        
-  
-        <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
-          <div className="mx-auto max-w-7xl">
-            <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl flex items-center justify-center">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+          <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl flex items-center justify-center">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-green-400 to-blue-500">
                 About
               </span>&nbsp;
               Us
@@ -144,12 +141,10 @@ function About() {
               </ol>
               
             </div>
-  
-            
-          </div>
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
+}
 
-export default About
+export default About;

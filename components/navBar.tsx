@@ -111,30 +111,28 @@ function NavBar() {
           <ul className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-100 dark:bg-black md:dark:bg-black dark:border-gray-700">
           
 
-            {navLinks.map((link) => {
-        const isActive = pathname === link.path;
-        
-        return (
-          <li
-            key={link.path}
-            className={`${
-              isActive && 'text-blue-500 dark:text-blue-500'
-            }  className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"`}
-          >
-            <Link href={link.path}>{link.label}</Link>
-          </li>
-        )
-      })}
+          {navLinks.map((link) => {
+              const isActive = pathname === link.path;
+
+              return (
+                <li
+                  key={link.path}
+                  className={`block py-2 px-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-green-400 md:dark:hover:bg-transparent ${isActive ? 'text-blue-500 dark:text-blue-500' : 'text-black dark:text-white'}`}
+                >
+                  <Link href={link.path}>{link.label}</Link>
+                </li>
+              );
+            })}
 
 
           </ul>
 
-          <a
+          {/* <a
           href="#"
           className="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-2 py-2 md:ml-4 dark:bg-blue-600 dark:hover:bg-blue-700"
         >
           Get Started
-        </a>
+        </a> */}
         </div>
 
 

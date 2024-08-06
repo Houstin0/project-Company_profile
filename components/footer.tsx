@@ -8,13 +8,13 @@ const Footer = () => {
         const yearElement = document.getElementById("currentYear");
         if (yearElement) {
           const currentYear = new Date().getFullYear();
-          yearElement.textContent = `© ${currentYear} Netwoods™. All Rights Reserved.`;
+          yearElement.textContent = `© ${currentYear} Netwoods. All Rights Reserved.`;
         }
       }, []);
   return (
    
 
-<footer className="bg-gray-100 rounded-lg shadow dark:bg-black mx-4">
+<footer className="bg-gray-100 rounded-lg shadow dark:bg-black mx-4 z-20">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
         <Link
@@ -28,14 +28,14 @@ const Footer = () => {
                 <li>
                     <Link href="/about" className="hover:underline me-4 md:me-6">About</Link>
                 </li>
-                <li>
+                {/* <li>
                     <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
                 </li>
                 <li>
                     <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
+                </li> */}
                 <li>
-                    <Link href="#" className="hover:underline">Contact</Link>
+                    <Link href="/contact" className="hover:underline">Contact</Link>
                 </li>
             </ul>
             
