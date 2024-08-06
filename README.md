@@ -32,6 +32,7 @@ This project is a company profile website for NetWoods, built using Next.js, Typ
 - **Contact**: Easily reach out to NetWoods for inquiries and service requests.
 - **Integrated Map**: View NetWoods' location on a map embedded in the contact section using the Google Maps API.
 - **Services**: Explore the range of services offered by NetWoods, including internet connectivity and web development.
+- **Responsive Design**: Enjoy a seamless experience on any device with a fully responsive design.
 
 ## Snippets
 
