@@ -56,6 +56,7 @@ export default function Home() {
                 width={40}
                 height={40}
                 alt="icon"
+                unoptimized
               />
               Contact Us
             </a>
@@ -152,7 +153,7 @@ export default function Home() {
             exceptional customer support to meet your needs.{" "}
           </p>
           <section className="bg-gray-50 dark:bg-gray-800 mt-4 rounded-xl">
-      <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
+      <div className="py-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Internet Packages</h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Choose the perfect plan that suits your needs and enjoy seamless internet connectivity.</p>
@@ -250,6 +251,7 @@ export default function Home() {
                 width={40}
                 height={40}
                 alt="icon"
+                unoptimized
               />
 
               <div className="text-left rtl:text-right">

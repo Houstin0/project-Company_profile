@@ -69,7 +69,7 @@ const Services = () => {
     your needs.
   </p>
 
-  <ol className="mb-5 pl-10 text-left text-lg list-decimal list-inside space-y-2 text-gray-900 dark:text-white">
+  <ol className="mb-5 lg:pl-10 text-left text-lg list-decimal list-inside space-y-2 text-gray-900 dark:text-white">
   <li>
     <strong>Reliable Connection</strong>: Enjoy a stable and fast internet experience, even in remote locations.
   </li>
@@ -79,12 +79,12 @@ const Services = () => {
   <li>
     <strong>Flexible Plans</strong>: Choose from a range of plans tailored to suit different usage needs and budgets.
     <section className="bg-gray-50 dark:bg-gray-800 mt-4 rounded-xl">
-      <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
+      <div className="py-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Internet Packages</h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Choose the perfect plan that suits your needs and enjoy seamless internet connectivity.</p>
         </div>
-        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+        <div className="space-y-4 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* Pricing Card */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-900 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
@@ -179,6 +179,7 @@ const Services = () => {
         width={40}
         height={40}
         alt="icon"
+        unoptimized
       />
 
       <div className="text-left rtl:text-right">
@@ -206,7 +207,7 @@ const Services = () => {
     solutions that drive results.{" "}
   </p>
 
-  <ol className="mb-5 pl-10 text-left text-lg list-decimal list-inside space-y-2 text-gray-900 dark:text-white">
+  <ol className="mb-5 lg:pl-10 text-left text-lg list-decimal list-inside space-y-2 text-gray-900 dark:text-white">
     <li>
       <strong>Custom Websites</strong>: Tailored designs and functionalities to reflect your brand and engage your audience.
     </li>
