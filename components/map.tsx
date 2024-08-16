@@ -7,6 +7,7 @@ const Map = () => {
 
   return (
     <div className='w-full max-w-full my-4'>
+      <p className='text-xs'>Refresh page if map is not showing</p>
       <iframe
         className='w-full h-64 md:h-96 border-2 border-black'
         loading="lazy"
