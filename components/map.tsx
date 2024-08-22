@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Map = () => {
-  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const apiKey = process.env.Maps_API_Key;
 
 
 
