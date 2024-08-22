@@ -28,7 +28,7 @@ export default function Home() {
     <main>
       {/* Hero section */}
       <section
-        className="bg-center bg-no-repeat bg-fixed bg-cover  bg-gray-500 bg-blend-multiply max-h-screen mt-[58px] py-16 lg:py-20"
+        className="bg-center bg-no-repeat bg-fixed bg-cover  bg-gray-500 bg-blend-multiply min-h-screen mt-[58px] py-16 lg:py-20"
         style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
       >
         <div className="px-4 mx-auto max-w-screen-xl text-center py-20">
